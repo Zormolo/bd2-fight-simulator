@@ -2,13 +2,13 @@
   "name": "bd2_simulator",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/Zormolo/bd2-fight-simulator.github.io#readme",
+  "homepage": "https://github.com/Zormolo/bd2-fight-simulator#readme",
   "bugs": {
-    "url": "https://github.com/Zormolo/bd2-fight-simulator.github.io/issues"
+    "url": "https://github.com/Zormolo/bd2-fight-simulator/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zormolo/bd2-fight-simulator.github.io.git"
+    "url": "git+https://github.com/Zormolo/bd2-fight-simulator.git"
   },
   "license": "ISC",
   "author": "",
