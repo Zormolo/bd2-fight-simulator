@@ -1,0 +1,204 @@
+{
+  "characters": {
+    "eclipse": {
+      "displayName": "Eclipse",
+      "dmgType": "magic",
+      "element": "dark",
+      "baseStats": {
+        "hp": 2499,
+        "def": 0,
+        "mres": 0.1,
+        "matk": 308,
+        "cdmg": 0.5,
+        "elementDmg": 0.5
+      },
+      "engraving": {
+        "matk": 34,
+        "hp": 243,
+        "mres": 0.08
+      },
+      "awakening": {
+        "matk": 0.12,
+        "elementDmg": 0.1
+      },
+      "costumes": [
+        {
+          "displayName": "The Dimension Witch",
+          "sp": 4,
+          "cd": 5,
+          "pattern": [
+            1, 0, 1,
+            0, 2, 0,
+            1, 0, 1
+          ],
+          "hits": 3,
+          "effects": {
+            "selfHeal": 0.35,
+            "dmg": 1.2,
+            "spDrainPerHitTarget": -3
+          },
+          "dupes": [
+            {
+              "skillDmg": 0.25
+            },
+            {
+              "skillDmg": 0.25
+            },
+            {
+              "sp": -1
+            },
+            {
+              "skillDmg": 0.25
+            },
+            {
+              "skillDmg": 0.25
+            }
+          ],
+          "pots": [
+            {
+              "skillDmg": 0.3
+            },
+            {
+              "cd": -2
+            },
+            {
+              "sp": -1
+            }
+          ]
+        },
+        {
+          "displayName": "Nightmare Bunny",
+          "sp": 3,
+          "cd": 5,
+          "pattern": [
+            0, 0, 1, 0, 0,
+            0, 0, 1, 0, 0,
+            1, 1, 2, 1, 1,
+            0, 0, 1, 0, 0,
+            0, 0, 1, 0, 0
+          ],
+          "hits": 3,
+          "effects": {
+            "mresShreed": 0.15,
+            "dmg": 0.75,
+            "gainSpPerHitTarget": 1,
+            "spDrainPerHitTarget": -1
+          },
+          "dupes": [
+            {
+              "skillDmg": 0.25
+            },
+            {
+              "skillDmg": 0.25
+            },
+            {
+              "skillDmg": 0.25
+            },
+            {
+              "skillDmg": 0.25
+            },
+            {
+              "skillDmg": 0.25
+            }
+          ],
+          "pots": [
+            {
+              "mresShreed": 0.05
+            },
+            {
+              "skillDmg": 0.1
+            },
+            {
+              "skillDmg": 0.1
+            }
+          ]
+        },
+        {
+          "displayName": "Beach Vacation",
+          "sp": 5,
+          "cd": 11,
+          "pattern": [
+            1, 1, 1,
+            1, 2, 1,
+            1, 1, 1
+          ],
+          "hits": 2,
+          "effects": {
+            "dmg": 2
+          },
+          "dupes": [
+            {
+              "sp": -1
+            },
+            {
+              "skillDmg": 0.5
+            },
+            {
+              "skillDmg": 0.5
+            },
+            {
+              "skillDmg": 0.5
+            },
+            {
+              "skillDmg": 0.5
+            }
+          ],
+          "pots": [
+            {
+              "skillDmg": 0.25
+            },
+            {
+              "skillDmg": 0.25
+            },
+            {
+              "sp": -1
+            }
+          ]
+        },
+        {
+          "displayName": "Dream Bride",
+          "sp": 5,
+          "cd": 5,
+          "pattern": [
+            0, 1, 0, 1, 0,
+            1, 1, 1, 1, 1,
+            0, 1, 1, 1, 0,
+            0, 0, 1, 0, 0
+          ],
+          "hits": 1,
+          "effects": {
+            "dmg": 3.5
+          },
+          "dupes": [
+            {
+              "sp": -1
+            },
+            {
+              "skillDmg": 0.5
+            },
+            {
+              "skillDmg": 0.5
+            },
+            {
+              "skillDmg": 0.5
+            },
+            {
+              "skillDmg": 0.5
+            }
+          ],
+          "pots": [
+            {
+              "skillDmg": 0.25
+            },
+            {
+              "skillDmg": 0.25
+            },
+            {
+              "skillDmg": 0.25
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
