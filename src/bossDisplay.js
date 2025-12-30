@@ -105,7 +105,7 @@ window.addEventListener("resize", resizeCanvas);
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 async function init() {
-  const res = await fetch( "/public/json/bossData.json" );
+  const res = await fetch( "./public/json/bossData.json" );
   bossData = await res.json();
 
   bossSelect.addEventListener( 'change', draw );
