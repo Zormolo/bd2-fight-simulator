@@ -29,7 +29,7 @@ function grid() {
 
   for( const part of bossData[ bossSelect.value ].parts ) {
     const img = new Image();
-    img.src = `/public/images/fh/${ bossSelect.value }/${ part }.png`;
+    img.src = `./public/images/fh/${ bossSelect.value }/${ part }.png`;
     images.push( img );
   }
 
