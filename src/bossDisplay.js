@@ -23,7 +23,7 @@ function grid() {
   const images = [];
 
   const empytSlot = new Image();
-  empytSlot.src = "./../public/images/emptySlot.png";
+  empytSlot.src = "./public/images/emptySlot.png";
 
   images.push( empytSlot );
 
