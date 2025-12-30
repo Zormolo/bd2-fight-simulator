@@ -54,13 +54,6 @@ function grid() {
       }
     }
   } )
-
-  const img = new Image();
-  img.src = "../public/images/emptySlot.png";
-
-  img.onload = function () {
-
-  };
 }
 
 function draw() {
